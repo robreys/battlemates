@@ -1,0 +1,21 @@
+.animation {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.8)
+}
+.animation img, .animation div.alert {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.animation div.alert {
+	width:30%;
+
+}
+.animation.hidden {
+	visibility: hidden;
+}

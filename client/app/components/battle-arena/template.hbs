@@ -1,0 +1,51 @@
+{{!-- top section --}}
+	{{!-- mate stats --}}
+	<div class="row">
+		{{!-- mate name --}}
+		<div class="row">
+			<h4 class="col-md-10 col-md-offset-1 text-center">{{active_m2.name}}</h4>
+		</div>
+		{{!-- mate health --}}
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="progress">
+				  <div class="progress-bar progress-bar-success" role="progressbar"{{bind-attr style=health_pct2_style}}>
+				    <!--span class="sr-only">40% Complete (success)</span -->
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	{{!-- mate card --}}
+	<div class="row">
+		<img class="col-md-4 col-md-offset-4" src="http://www.mypokecard.com/en/Gallery/my/galery/B4MUhMsuDAf.jpg" />
+	</div>
+
+{{!-- mid section --}}
+	<div class="row">
+		<h4 class="col-md-10 col-md-offset-1 text-center">Battle Mates</h4>
+	</div>
+
+{{!-- bot section --}}
+	{{!-- mate card --}}
+	<div class="row">
+		<img class="col-md-4 col-md-offset-4" src="http://www.pokecard.net/mcmaker/createcard.php?name=Friend&type=Fire&hp=&stage=Basic&pred=&predpicture=&mainpicture=http%3A%2F%2Fblogdailyherald.com%2Fwp-content%2Fuploads%2F2014%2F10%2Fwallpaper-for-facebook-profile-photo.jpg&species=&length=&weight=&attack1name=&attack1damage=&attack1info=&attack1cost=&attack2name=&attack2damage=&attack2info=&attack2cost=&weakness=&weaknessmod=&resistance=&resistancemod=&retreat=0&flavor=&artist=&bottom=&set1=&set2=&rarity=Rare" />
+	</div>
+	{{!-- mate stats --}}
+	<div class="row">
+		{{!-- mate name --}}
+		<div class="row">
+			<h4 class="col-md-10 col-md-offset-1 text-center">{{active_m1.name}}</h4>
+		</div>
+		{{!-- mate health --}}
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="progress">
+				  <div class="progress-bar progress-bar-success" role="progressbar" {{bind-attr style=health_pct1_style}}>
+				    <!--span class="sr-only">40% Complete (success)</span -->
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+
