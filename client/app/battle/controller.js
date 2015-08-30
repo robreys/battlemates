@@ -43,6 +43,7 @@ export default Ember.Controller.extend({
 					Ember.run.later(function() {
 						self.set('animation_loaded', false);
 						self.set('animation_url', null);
+						console.log('user', data.user);
 						self.set('battle_state', data.state);
 						self.set('overlay_enabled', false);
 						if (data.user === 2) {

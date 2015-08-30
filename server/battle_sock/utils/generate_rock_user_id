@@ -1,0 +1,4 @@
+module.exports = function() {
+	//hardcoded rock user id "rocky"
+	return "55b56794ba82ad9d52fb562b";
+}
